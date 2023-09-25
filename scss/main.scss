@@ -18,6 +18,9 @@ nav{
     ul{
         list-style-type: none;
         li{
+            :hover{
+                color: $secundary-color;
+            }
             a{
                 text-decoration: none;
                 color: $tertiary-color;
