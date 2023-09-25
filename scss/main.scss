@@ -1,0 +1,45 @@
+/* Colours */
+$primary-color: #3E8989;
+$secundary-color: #2CDA9D;
+$tertiary-color: #564D65;
+
+/* Fontsize */
+$font-lg: 24;
+$font-md: 18;
+$font-sm: 16;
+
+
+nav,.banner, footer{
+    text-align: center;
+}
+
+nav{
+    background-color: $primary-color;
+    ul{
+        list-style-type: none;
+        li{
+            a{
+                text-decoration: none;
+                color: $tertiary-color;
+                font-size: $font-lg;
+            }
+        }
+    }
+    
+}
+
+
+ .banner{
+    h1{
+        font-size: $font-lg;
+        color: $secundary-color;
+    }
+ } 
+footer{
+    h3{
+        font-size: $font-md;
+        color: $primary-color;
+    }
+}
+
+
